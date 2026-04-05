@@ -18,6 +18,12 @@ struct User: Decodable {
         case email
     }
     
+    init(id: Int, name: String, email: String) {
+            self.id = id
+            self.name = name
+            self.email = email
+        }
+    
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         
