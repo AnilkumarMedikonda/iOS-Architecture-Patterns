@@ -70,7 +70,12 @@ extension UserListViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell")
             ?? UITableViewCell(style: .subtitle, reuseIdentifier: "UserCell")
         
+        guard users.indices.contains(indexPath.row) else {
+            return cell // prevent crash
+        }
+        
         let user = users[indexPath.row]
+        
         cell.textLabel?.text = "Name: \(user.name)"
         cell.detailTextLabel?.text = "Email: \(user.email)"
         
@@ -81,9 +86,10 @@ extension UserListViewController: UITableViewDataSource {
 // MARK: - UITableViewDelegate
 extension UserListViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-         let user = users[indexPath.row]
-         print("Name: \(user.name)")
-         print("Email: \(user.email)")
+        guard users.indices.contains(indexPath.row) else { return }
+        let user = users[indexPath.row]
+        print("Name: \(user.name)")
+        print("Email: \(user.email)")
     }
 }
 
