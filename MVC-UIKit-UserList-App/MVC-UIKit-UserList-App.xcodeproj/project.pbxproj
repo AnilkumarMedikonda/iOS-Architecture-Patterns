@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B09640CC2F81ECD800D21C35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640C22F81ECD800D21C35 /* AppDelegate.swift */; };
+		B09640CD2F81ECD800D21C35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640C92F81ECD800D21C35 /* SceneDelegate.swift */; };
+		B09640CE2F81ECD800D21C35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640CA2F81ECD800D21C35 /* ViewController.swift */; };
+		B09640CF2F81ECD800D21C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B09640C32F81ECD800D21C35 /* Assets.xcassets */; };
+		B09640D12F81ECD800D21C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09640C62F81ECD800D21C35 /* LaunchScreen.storyboard */; };
+		B09640D22F81ECD800D21C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09640C82F81ECD800D21C35 /* Main.storyboard */; };
+		B09640DA2F81F37600D21C35 /* MVC_UIKit_UserList_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640D72F81F37600D21C35 /* MVC_UIKit_UserList_AppUITests.swift */; };
+		B09640DB2F81F37600D21C35 /* MVC_UIKit_UserList_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640D82F81F37600D21C35 /* MVC_UIKit_UserList_AppUITestsLaunchTests.swift */; };
+		B09640DE2F81F37600D21C35 /* MVC_UIKit_UserList_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640DC2F81F37600D21C35 /* MVC_UIKit_UserList_AppTests.swift */; };
+		B09640E12F81F70E00D21C35 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09640E02F81F70E00D21C35 /* APIConstants.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B09640632F81E66500D21C35 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,38 +40,18 @@
 		B096404C2F81E66400D21C35 /* MVC-UIKit-UserList-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-UIKit-UserList-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B09640622F81E66500D21C35 /* MVC-UIKit-UserList-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC-UIKit-UserList-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B096406C2F81E66500D21C35 /* MVC-UIKit-UserList-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVC-UIKit-UserList-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09640C22F81ECD800D21C35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B09640C32F81ECD800D21C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B09640C42F81ECD800D21C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B09640C52F81ECD800D21C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B09640C72F81ECD800D21C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B09640C92F81ECD800D21C35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B09640CA2F81ECD800D21C35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B09640D72F81F37600D21C35 /* MVC_UIKit_UserList_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_UIKit_UserList_AppUITests.swift; sourceTree = "<group>"; };
+		B09640D82F81F37600D21C35 /* MVC_UIKit_UserList_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_UIKit_UserList_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B09640DC2F81F37600D21C35 /* MVC_UIKit_UserList_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVC_UIKit_UserList_AppTests.swift; sourceTree = "<group>"; };
+		B09640E02F81F70E00D21C35 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B09640742F81E66500D21C35 /* Exceptions for "MVC-UIKit-UserList-App" folder in "MVC-UIKit-UserList-App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B096404B2F81E66400D21C35 /* MVC-UIKit-UserList-App */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		B096404E2F81E66400D21C35 /* MVC-UIKit-UserList-App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B09640742F81E66500D21C35 /* Exceptions for "MVC-UIKit-UserList-App" folder in "MVC-UIKit-UserList-App" target */,
-			);
-			path = "MVC-UIKit-UserList-App";
-			sourceTree = "<group>";
-		};
-		B09640652F81E66500D21C35 /* MVC-UIKit-UserList-AppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MVC-UIKit-UserList-AppTests";
-			sourceTree = "<group>";
-		};
-		B096406F2F81E66500D21C35 /* MVC-UIKit-UserList-AppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "MVC-UIKit-UserList-AppUITests";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B09640492F81E66400D21C35 /* Frameworks */ = {
@@ -88,9 +81,9 @@
 		B09640432F81E66400D21C35 = {
 			isa = PBXGroup;
 			children = (
-				B096404E2F81E66400D21C35 /* MVC-UIKit-UserList-App */,
-				B09640652F81E66500D21C35 /* MVC-UIKit-UserList-AppTests */,
-				B096406F2F81E66500D21C35 /* MVC-UIKit-UserList-AppUITests */,
+				B09640CB2F81ECD800D21C35 /* MVC-UIKit-UserList-App */,
+				B09640DD2F81F37600D21C35 /* MVC-UIKit-UserList-AppTests */,
+				B09640D92F81F37600D21C35 /* MVC-UIKit-UserList-AppUITests */,
 				B096404D2F81E66400D21C35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,6 +96,94 @@
 				B096406C2F81E66500D21C35 /* MVC-UIKit-UserList-AppUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B09640BF2F81ECD800D21C35 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B09640CA2F81ECD800D21C35 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B09640C02F81ECD800D21C35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B09640C12F81ECD800D21C35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B09640C82F81ECD800D21C35 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B09640CB2F81ECD800D21C35 /* MVC-UIKit-UserList-App */ = {
+			isa = PBXGroup;
+			children = (
+				B09640D52F81ED9C00D21C35 /* Application */,
+				B09640C02F81ECD800D21C35 /* Model */,
+				B09640C12F81ECD800D21C35 /* View */,
+				B09640BF2F81ECD800D21C35 /* Controller */,
+				B09640E22F81F96500D21C35 /* Services */,
+				B09640D42F81ECF400D21C35 /* Resources */,
+			);
+			path = "MVC-UIKit-UserList-App";
+			sourceTree = "<group>";
+		};
+		B09640D42F81ECF400D21C35 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B09640DF2F81F6FD00D21C35 /* Constants */,
+				B09640C32F81ECD800D21C35 /* Assets.xcassets */,
+				B09640C62F81ECD800D21C35 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B09640D52F81ED9C00D21C35 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B09640C42F81ECD800D21C35 /* Info.plist */,
+				B09640C22F81ECD800D21C35 /* AppDelegate.swift */,
+				B09640C92F81ECD800D21C35 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B09640D92F81F37600D21C35 /* MVC-UIKit-UserList-AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B09640D72F81F37600D21C35 /* MVC_UIKit_UserList_AppUITests.swift */,
+				B09640D82F81F37600D21C35 /* MVC_UIKit_UserList_AppUITestsLaunchTests.swift */,
+			);
+			path = "MVC-UIKit-UserList-AppUITests";
+			sourceTree = "<group>";
+		};
+		B09640DD2F81F37600D21C35 /* MVC-UIKit-UserList-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B09640DC2F81F37600D21C35 /* MVC_UIKit_UserList_AppTests.swift */,
+			);
+			path = "MVC-UIKit-UserList-AppTests";
+			sourceTree = "<group>";
+		};
+		B09640DF2F81F6FD00D21C35 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B09640E02F81F70E00D21C35 /* APIConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B09640E22F81F96500D21C35 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,9 +200,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B096404E2F81E66400D21C35 /* MVC-UIKit-UserList-App */,
 			);
 			name = "MVC-UIKit-UserList-App";
 			packageProductDependencies = (
@@ -143,9 +221,6 @@
 			dependencies = (
 				B09640642F81E66500D21C35 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				B09640652F81E66500D21C35 /* MVC-UIKit-UserList-AppTests */,
-			);
 			name = "MVC-UIKit-UserList-AppTests";
 			packageProductDependencies = (
 			);
@@ -165,9 +240,6 @@
 			);
 			dependencies = (
 				B096406E2F81E66500D21C35 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B096406F2F81E66500D21C35 /* MVC-UIKit-UserList-AppUITests */,
 			);
 			name = "MVC-UIKit-UserList-AppUITests";
 			packageProductDependencies = (
@@ -225,6 +297,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09640CF2F81ECD800D21C35 /* Assets.xcassets in Resources */,
+				B09640D12F81ECD800D21C35 /* LaunchScreen.storyboard in Resources */,
+				B09640D22F81ECD800D21C35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09640E12F81F70E00D21C35 /* APIConstants.swift in Sources */,
+				B09640CC2F81ECD800D21C35 /* AppDelegate.swift in Sources */,
+				B09640CD2F81ECD800D21C35 /* SceneDelegate.swift in Sources */,
+				B09640CE2F81ECD800D21C35 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09640DE2F81F37600D21C35 /* MVC_UIKit_UserList_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +343,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09640DA2F81F37600D21C35 /* MVC_UIKit_UserList_AppUITests.swift in Sources */,
+				B09640DB2F81F37600D21C35 /* MVC_UIKit_UserList_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +363,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		B09640C62F81ECD800D21C35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09640C52F81ECD800D21C35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B09640C82F81ECD800D21C35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B09640C72F81ECD800D21C35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		B09640762F81E66500D21C35 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -291,7 +392,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NY42UDL4VH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-UIKit-UserList-App/Info.plist";
+				INFOPLIST_FILE = "MVC-UIKit-UserList-App/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -323,7 +424,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NY42UDL4VH;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVC-UIKit-UserList-App/Info.plist";
+				INFOPLIST_FILE = "MVC-UIKit-UserList-App/Application/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
