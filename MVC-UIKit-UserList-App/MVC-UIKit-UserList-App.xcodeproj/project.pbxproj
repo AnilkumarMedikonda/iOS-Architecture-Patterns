@@ -42,6 +42,9 @@
 		B096410A2F830C9300D21C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09640C82F81ECD800D21C35 /* Main.storyboard */; };
 		B096410B2F830C9300D21C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B09640C82F81ECD800D21C35 /* Main.storyboard */; };
 		B096410C2F830D1400D21C35 /* UserListViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09641082F830A1200D21C35 /* UserListViewControllerTests.swift */; };
+		B0B4390D2F83131500ACED6A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0B4390C2F83131200ACED6A /* README.md */; };
+		B0B4390E2F83131500ACED6A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0B4390C2F83131200ACED6A /* README.md */; };
+		B0B4390F2F83131500ACED6A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0B4390C2F83131200ACED6A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +87,7 @@
 		B09640F92F820D3A00D21C35 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		B09641012F820F4B00D21C35 /* UserServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceTests.swift; sourceTree = "<group>"; };
 		B09641082F830A1200D21C35 /* UserListViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewControllerTests.swift; sourceTree = "<group>"; };
+		B0B4390C2F83131200ACED6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +162,7 @@
 		B09640CB2F81ECD800D21C35 /* MVC-UIKit-UserList-App */ = {
 			isa = PBXGroup;
 			children = (
+				B0B4390C2F83131200ACED6A /* README.md */,
 				B09640D52F81ED9C00D21C35 /* Application */,
 				B09640C02F81ECD800D21C35 /* Model */,
 				B09640C12F81ECD800D21C35 /* View */,
@@ -376,6 +381,7 @@
 				B09640F22F82036F00D21C35 /* User.swift in Sources */,
 				B09640CD2F81ECD800D21C35 /* SceneDelegate.swift in Sources */,
 				B09640E42F8201A900D21C35 /* NetworkError.swift in Sources */,
+				B0B4390D2F83131500ACED6A /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +394,7 @@
 				B09640EC2F82030200D21C35 /* NetworkManaging.swift in Sources */,
 				B09640F32F82036F00D21C35 /* User.swift in Sources */,
 				B09641032F820F4B00D21C35 /* UserServiceTests.swift in Sources */,
+				B0B4390E2F83131500ACED6A /* README.md in Sources */,
 				B09640FA2F820D3A00D21C35 /* MockNetworkManager.swift in Sources */,
 				B09641062F83073800D21C35 /* APIConstants.swift in Sources */,
 				B09641042F83071A00D21C35 /* NetworkError.swift in Sources */,
@@ -410,6 +417,7 @@
 				B09640E82F82024300D21C35 /* NetworkManager.swift in Sources */,
 				B09640DA2F81F37600D21C35 /* MVC_UIKit_UserList_AppUITests.swift in Sources */,
 				B09640DB2F81F37600D21C35 /* MVC_UIKit_UserList_AppUITestsLaunchTests.swift in Sources */,
+				B0B4390F2F83131500ACED6A /* README.md in Sources */,
 				B09641052F83071A00D21C35 /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
