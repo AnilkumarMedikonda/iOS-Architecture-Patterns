@@ -23,6 +23,7 @@
 		B0B439D72F8AA57C00ACED6A /* UserViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B439D62F8AA57C00ACED6A /* UserViewModelTests.swift */; };
 		B0B439D92F8AA5BD00ACED6A /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B439D82F8AA5BD00ACED6A /* MockNetworkManager.swift */; };
 		B0B439DB2F8AA6D600ACED6A /* UserListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B439DA2F8AA6D600ACED6A /* UserListUITests.swift */; };
+		B0B439DD2F8AAAF900ACED6A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0B439DC2F8AAAF600ACED6A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B0B439D62F8AA57C00ACED6A /* UserViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModelTests.swift; sourceTree = "<group>"; };
 		B0B439D82F8AA5BD00ACED6A /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		B0B439DA2F8AA6D600ACED6A /* UserListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListUITests.swift; sourceTree = "<group>"; };
+		B0B439DC2F8AAAF600ACED6A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		B0B439A92F8A68B200ACED6A /* MVVM-UIKit-UserList-App */ = {
 			isa = PBXGroup;
 			children = (
+				B0B439DC2F8AAAF600ACED6A /* README.md */,
 				B0B439B22F8A68BD00ACED6A /* Application */,
 				B0B439B12F8A68B700ACED6A /* Model */,
 				B0B439B32F8A6CCE00ACED6A /* View */,
@@ -353,6 +356,7 @@
 				B0B439CF2F8A6F7B00ACED6A /* UserListViewController.swift in Sources */,
 				B0B439BA2F8A6E7100ACED6A /* User.swift in Sources */,
 				B0B439BC2F8A6E9800ACED6A /* ApiConsants.swift in Sources */,
+				B0B439DD2F8AAAF900ACED6A /* README.md in Sources */,
 				B0B439C72F8A6EF700ACED6A /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
