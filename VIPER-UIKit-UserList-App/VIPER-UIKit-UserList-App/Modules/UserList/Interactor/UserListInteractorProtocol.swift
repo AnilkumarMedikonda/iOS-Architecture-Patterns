@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+protocol UserListInteractorProtocol {
+    func fetchUsers()
+}
+
+protocol UserListInteractorOutputProtocol: AnyObject {
+    func didFetchUsers(_ users: [User])
+    func didFail(_ error: NetworkError)
+}
