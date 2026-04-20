@@ -12,7 +12,6 @@
 		B0B43AB82F95B03E00ACED6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B43AB12F95B03E00ACED6A /* Main.storyboard */; };
 		B0B43AB92F95B03E00ACED6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AAB2F95B03E00ACED6A /* AppDelegate.swift */; };
 		B0B43ABA2F95B03E00ACED6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AB22F95B03E00ACED6A /* SceneDelegate.swift */; };
-		B0B43ABB2F95B03E00ACED6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AB32F95B03E00ACED6A /* ViewController.swift */; };
 		B0B43ABE2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ABC2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift */; };
 		B0B43AC22F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ABF2F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift */; };
 		B0B43AC32F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AC02F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift */; };
@@ -21,13 +20,17 @@
 		B0B43AD92F95C8F400ACED6A /* NetworkManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AD82F95C8F400ACED6A /* NetworkManaging.swift */; };
 		B0B43ADB2F95C92400ACED6A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ADA2F95C92400ACED6A /* UserService.swift */; };
 		B0B43ADD2F95C95B00ACED6A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ADC2F95C95B00ACED6A /* User.swift */; };
-		B0B43ADF2F95C98100ACED6A /* UserDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ADE2F95C98100ACED6A /* UserDTO.swift */; };
 		B0B43AE12F95C9AE00ACED6A /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AE02F95C9AE00ACED6A /* APIConstants.swift */; };
 		B0B43AE32F95C9E600ACED6A /* UserListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AE22F95C9E600ACED6A /* UserListPresenter.swift */; };
 		B0B43AE52F95C9F200ACED6A /* UserListPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AE42F95C9F200ACED6A /* UserListPresenterProtocol.swift */; };
 		B0B43AE72F95CA1000ACED6A /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AE62F95CA1000ACED6A /* UserListInteractor.swift */; };
 		B0B43AE92F95CA5E00ACED6A /* UserListInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AE82F95CA5E00ACED6A /* UserListInteractorProtocol.swift */; };
 		B0B43AEB2F95CC8700ACED6A /* UserListBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AEA2F95CC8700ACED6A /* UserListBuilder.swift */; };
+		B0B43AED2F95CCF100ACED6A /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AEC2F95CCF100ACED6A /* NetworkManager.swift */; };
+		B0B43AEF2F95CD5700ACED6A /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AEE2F95CD5700ACED6A /* UserListViewController.swift */; };
+		B0B43AF12F95CEA300ACED6A /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AF02F95CEA300ACED6A /* URLSessionProtocol.swift */; };
+		B0B43AF32F95CEEA00ACED6A /* UserServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AF22F95CEEA00ACED6A /* UserServiceProtocol.swift */; };
+		B0B43AF52F95CFD700ACED6A /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AF42F95CFD700ACED6A /* UserListRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +59,6 @@
 		B0B43AAE2F95B03E00ACED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B43AB02F95B03E00ACED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B43AB22F95B03E00ACED6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0B43AB32F95B03E00ACED6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0B43ABC2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_UIKit_UserList_AppTests.swift; sourceTree = "<group>"; };
 		B0B43ABF2F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_UIKit_UserList_AppUITests.swift; sourceTree = "<group>"; };
 		B0B43AC02F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_UIKit_UserList_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -66,13 +68,17 @@
 		B0B43AD82F95C8F400ACED6A /* NetworkManaging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManaging.swift; sourceTree = "<group>"; };
 		B0B43ADA2F95C92400ACED6A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
 		B0B43ADC2F95C95B00ACED6A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B0B43ADE2F95C98100ACED6A /* UserDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDTO.swift; sourceTree = "<group>"; };
 		B0B43AE02F95C9AE00ACED6A /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		B0B43AE22F95C9E600ACED6A /* UserListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenter.swift; sourceTree = "<group>"; };
 		B0B43AE42F95C9F200ACED6A /* UserListPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenterProtocol.swift; sourceTree = "<group>"; };
 		B0B43AE62F95CA1000ACED6A /* UserListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
 		B0B43AE82F95CA5E00ACED6A /* UserListInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractorProtocol.swift; sourceTree = "<group>"; };
 		B0B43AEA2F95CC8700ACED6A /* UserListBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListBuilder.swift; sourceTree = "<group>"; };
+		B0B43AEC2F95CCF100ACED6A /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B0B43AEE2F95CD5700ACED6A /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		B0B43AF02F95CEA300ACED6A /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
+		B0B43AF22F95CEEA00ACED6A /* UserServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceProtocol.swift; sourceTree = "<group>"; };
+		B0B43AF42F95CFD700ACED6A /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,9 @@
 		B0B43AC82F95B20300ACED6A /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				B0B43AD62F95C8DA00ACED6A /* NetworkError.swift */,
+				B0B43AD82F95C8F400ACED6A /* NetworkManaging.swift */,
+				B0B43AEC2F95CCF100ACED6A /* NetworkManager.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -206,7 +215,6 @@
 			isa = PBXGroup;
 			children = (
 				B0B43ADC2F95C95B00ACED6A /* User.swift */,
-				B0B43ADE2F95C98100ACED6A /* UserDTO.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -214,7 +222,7 @@
 		B0B43ACE2F95BC2400ACED6A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B0B43AB32F95B03E00ACED6A /* ViewController.swift */,
+				B0B43AEE2F95CD5700ACED6A /* UserListViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +248,7 @@
 		B0B43AD12F95BC4000ACED6A /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				B0B43AF42F95CFD700ACED6A /* UserListRouter.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -247,9 +256,9 @@
 		B0B43AD22F95BC4D00ACED6A /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				B0B43AD62F95C8DA00ACED6A /* NetworkError.swift */,
-				B0B43AD82F95C8F400ACED6A /* NetworkManaging.swift */,
 				B0B43ADA2F95C92400ACED6A /* UserService.swift */,
+				B0B43AF02F95CEA300ACED6A /* URLSessionProtocol.swift */,
+				B0B43AF22F95CEEA00ACED6A /* UserServiceProtocol.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -415,14 +424,17 @@
 				B0B43ADB2F95C92400ACED6A /* UserService.swift in Sources */,
 				B0B43AC62F95B07700ACED6A /* AppDIContainer.swift in Sources */,
 				B0B43AEB2F95CC8700ACED6A /* UserListBuilder.swift in Sources */,
+				B0B43AED2F95CCF100ACED6A /* NetworkManager.swift in Sources */,
+				B0B43AF52F95CFD700ACED6A /* UserListRouter.swift in Sources */,
+				B0B43AEF2F95CD5700ACED6A /* UserListViewController.swift in Sources */,
 				B0B43AE72F95CA1000ACED6A /* UserListInteractor.swift in Sources */,
 				B0B43AB92F95B03E00ACED6A /* AppDelegate.swift in Sources */,
+				B0B43AF12F95CEA300ACED6A /* URLSessionProtocol.swift in Sources */,
 				B0B43ABA2F95B03E00ACED6A /* SceneDelegate.swift in Sources */,
 				B0B43ADD2F95C95B00ACED6A /* User.swift in Sources */,
-				B0B43ABB2F95B03E00ACED6A /* ViewController.swift in Sources */,
 				B0B43AE52F95C9F200ACED6A /* UserListPresenterProtocol.swift in Sources */,
 				B0B43AE12F95C9AE00ACED6A /* APIConstants.swift in Sources */,
-				B0B43ADF2F95C98100ACED6A /* UserDTO.swift in Sources */,
+				B0B43AF32F95CEEA00ACED6A /* UserServiceProtocol.swift in Sources */,
 				B0B43AD92F95C8F400ACED6A /* NetworkManaging.swift in Sources */,
 				B0B43AE92F95CA5E00ACED6A /* UserListInteractorProtocol.swift in Sources */,
 				B0B43AD72F95C8DA00ACED6A /* NetworkError.swift in Sources */,

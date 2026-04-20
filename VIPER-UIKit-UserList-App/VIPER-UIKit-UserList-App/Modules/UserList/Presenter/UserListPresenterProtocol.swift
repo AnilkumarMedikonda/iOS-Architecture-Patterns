@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+protocol UserListPresenterProtocol {
+    func viewDidLoad()
+    func numberOfRows() -> Int
+    func user(at index: Int) -> User
+    func didSelectRow(at index: Int)
+}
+
+protocol UserListViewProtocol: AnyObject {
+    func reloadData()
+    func showError(_ message: String)
+    func showLoading()
+    func hideLoading()
+}

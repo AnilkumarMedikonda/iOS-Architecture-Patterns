@@ -8,20 +8,19 @@
 
 import Foundation
 
-class UserService {
-    
-    private let networkManager: NetworkManaging
-    
-    init(networkManager: NetworkManaging) {
-        self.networkManager = networkManager
+final class UserService: UserServiceProtocol {
+
+    private let network: NetworkManaging
+
+    init(network: NetworkManaging) {
+        self.network = network
     }
-    
+
     func fetchUsers(completion: @escaping (Result<[User], NetworkError>) -> Void) {
-        
         guard let url = APIConstants.EndPoints.users.url else {
             completion(.failure(.invalidURL))
             return
         }
-        networkManager.request(url: url, completion: completion)
+        network.request(url: url, completion: completion)
     }
 }

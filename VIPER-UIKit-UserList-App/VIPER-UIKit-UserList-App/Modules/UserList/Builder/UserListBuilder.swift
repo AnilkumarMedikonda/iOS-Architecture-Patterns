@@ -5,27 +5,29 @@
 //  Created by Medikonda Anil kumar on 20/04/26.
 //
 
-import Foundation
+import UIKit
 
 final class UserListBuilder {
-    
-    static func build(di: AppDIContainer) -> UIViewController {
-        
+
+    static func build() -> UIViewController {
+
+        let network = NetworkManager()
+        let service = UserService(network: network)
+
         let view = UserListViewController()
         let presenter = UserListPresenter()
-        let service = di.makeUserService()
         let interactor = UserListInteractor(service: service)
         let router = UserListRouter()
-        
+
         view.presenter = presenter
-        
+
         presenter.view = view
         presenter.interactor = interactor
         presenter.router = router
-        
+
         interactor.presenter = presenter
         router.viewController = view
-        
+
         return view
     }
 }
