@@ -31,6 +31,8 @@
 		B0CE9B832F971B0B0065C331 /* MockUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE9B822F971B0B0065C331 /* MockUserService.swift */; };
 		B0CE9B852F971B480065C331 /* UserListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE9B842F971B480065C331 /* UserListInteractorTests.swift */; };
 		B0CE9B872F971B7F0065C331 /* UserListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE9B862F971B7F0065C331 /* UserListPresenterTests.swift */; };
+		B0CE9B892F9721C80065C331 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0CE9B882F9721C80065C331 /* README.md */; };
+		B0CE9B8A2F9721C80065C331 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B0CE9B882F9721C80065C331 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +81,7 @@
 		B0CE9B822F971B0B0065C331 /* MockUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserService.swift; sourceTree = "<group>"; };
 		B0CE9B842F971B480065C331 /* UserListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractorTests.swift; sourceTree = "<group>"; };
 		B0CE9B862F971B7F0065C331 /* UserListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenterTests.swift; sourceTree = "<group>"; };
+		B0CE9B882F9721C80065C331 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,7 @@
 		B0B43A6E2F95AFBF00ACED6A = {
 			isa = PBXGroup;
 			children = (
+				B0CE9B882F9721C80065C331 /* README.md */,
 				B0B43AB42F95B03E00ACED6A /* VIPER-UIKit-UserList-App */,
 				B0B43ABD2F95B04A00ACED6A /* VIPER-UIKit-UserList-AppTests */,
 				B0B43AC12F95B04D00ACED6A /* VIPER-UIKit-UserList-AppUITests */,
@@ -397,6 +401,7 @@
 			files = (
 				B0B43AB52F95B03E00ACED6A /* Assets.xcassets in Resources */,
 				B0B43AB72F95B03E00ACED6A /* LaunchScreen.storyboard in Resources */,
+				B0CE9B892F9721C80065C331 /* README.md in Resources */,
 				B0B43AB82F95B03E00ACED6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +410,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0CE9B8A2F9721C80065C331 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
