@@ -12,9 +12,6 @@
 		B0B43AB82F95B03E00ACED6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B43AB12F95B03E00ACED6A /* Main.storyboard */; };
 		B0B43AB92F95B03E00ACED6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AAB2F95B03E00ACED6A /* AppDelegate.swift */; };
 		B0B43ABA2F95B03E00ACED6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AB22F95B03E00ACED6A /* SceneDelegate.swift */; };
-		B0B43ABE2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ABC2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift */; };
-		B0B43AC22F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43ABF2F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift */; };
-		B0B43AC32F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AC02F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift */; };
 		B0B43AC62F95B07700ACED6A /* AppDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AC52F95B07700ACED6A /* AppDIContainer.swift */; };
 		B0B43AD72F95C8DA00ACED6A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AD62F95C8DA00ACED6A /* NetworkError.swift */; };
 		B0B43AD92F95C8F400ACED6A /* NetworkManaging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AD82F95C8F400ACED6A /* NetworkManaging.swift */; };
@@ -31,6 +28,9 @@
 		B0B43AF12F95CEA300ACED6A /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AF02F95CEA300ACED6A /* URLSessionProtocol.swift */; };
 		B0B43AF32F95CEEA00ACED6A /* UserServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AF22F95CEEA00ACED6A /* UserServiceProtocol.swift */; };
 		B0B43AF52F95CFD700ACED6A /* UserListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B43AF42F95CFD700ACED6A /* UserListRouter.swift */; };
+		B0CE9B832F971B0B0065C331 /* MockUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE9B822F971B0B0065C331 /* MockUserService.swift */; };
+		B0CE9B852F971B480065C331 /* UserListInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE9B842F971B480065C331 /* UserListInteractorTests.swift */; };
+		B0CE9B872F971B7F0065C331 /* UserListPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE9B862F971B7F0065C331 /* UserListPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,17 +51,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B0B43A8D2F95AFC000ACED6A /* VIPER-UIKit-UserList-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VIPER-UIKit-UserList-AppTests.xctest"; path = "/Users/medikondaanilkumar/Documents/iOS-Architecture-Patterns/VIPER-UIKit-UserList-App/build/Debug-iphoneos/VIPER-UIKit-UserList-App.app/PlugIns/VIPER-UIKit-UserList-AppTests.xctest"; sourceTree = "<absolute>"; };
-		B0B43A972F95AFC000ACED6A /* VIPER-UIKit-UserList-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "VIPER-UIKit-UserList-AppUITests.xctest"; path = "/Users/medikondaanilkumar/Documents/iOS-Architecture-Patterns/VIPER-UIKit-UserList-App/build/Debug-iphoneos/VIPER-UIKit-UserList-AppUITests-Runner.app/PlugIns/VIPER-UIKit-UserList-AppUITests.xctest"; sourceTree = "<absolute>"; };
 		B0B43AAB2F95B03E00ACED6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0B43AAC2F95B03E00ACED6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B43AAD2F95B03E00ACED6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0B43AAE2F95B03E00ACED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B43AB02F95B03E00ACED6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0B43AB22F95B03E00ACED6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B0B43ABC2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_UIKit_UserList_AppTests.swift; sourceTree = "<group>"; };
-		B0B43ABF2F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_UIKit_UserList_AppUITests.swift; sourceTree = "<group>"; };
-		B0B43AC02F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VIPER_UIKit_UserList_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B0B43AC52F95B07700ACED6A /* AppDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDIContainer.swift; sourceTree = "<group>"; };
 		B0B43AD52F95BF2700ACED6A /* VIPER-UIKit-UserList-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VIPER-UIKit-UserList-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0B43AD62F95C8DA00ACED6A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
@@ -79,6 +74,11 @@
 		B0B43AF02F95CEA300ACED6A /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		B0B43AF22F95CEEA00ACED6A /* UserServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserServiceProtocol.swift; sourceTree = "<group>"; };
 		B0B43AF42F95CFD700ACED6A /* UserListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListRouter.swift; sourceTree = "<group>"; };
+		B0CE9B802F971AA10065C331 /* VIPER-UIKit-UserList-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER-UIKit-UserList-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE9B812F971AA10065C331 /* VIPER-UIKit-UserList-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VIPER-UIKit-UserList-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CE9B822F971B0B0065C331 /* MockUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockUserService.swift; sourceTree = "<group>"; };
+		B0CE9B842F971B480065C331 /* UserListInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListInteractorTests.swift; sourceTree = "<group>"; };
+		B0CE9B862F971B7F0065C331 /* UserListPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,8 @@
 				B0B43ABD2F95B04A00ACED6A /* VIPER-UIKit-UserList-AppTests */,
 				B0B43AC12F95B04D00ACED6A /* VIPER-UIKit-UserList-AppUITests */,
 				B0B43AD52F95BF2700ACED6A /* VIPER-UIKit-UserList-App.app */,
+				B0CE9B802F971AA10065C331 /* VIPER-UIKit-UserList-AppTests.xctest */,
+				B0CE9B812F971AA10065C331 /* VIPER-UIKit-UserList-AppUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -130,7 +132,9 @@
 		B0B43ABD2F95B04A00ACED6A /* VIPER-UIKit-UserList-AppTests */ = {
 			isa = PBXGroup;
 			children = (
-				B0B43ABC2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift */,
+				B0CE9B822F971B0B0065C331 /* MockUserService.swift */,
+				B0CE9B842F971B480065C331 /* UserListInteractorTests.swift */,
+				B0CE9B862F971B7F0065C331 /* UserListPresenterTests.swift */,
 			);
 			path = "VIPER-UIKit-UserList-AppTests";
 			sourceTree = "<group>";
@@ -138,8 +142,6 @@
 		B0B43AC12F95B04D00ACED6A /* VIPER-UIKit-UserList-AppUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B0B43ABF2F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift */,
-				B0B43AC02F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift */,
 			);
 			path = "VIPER-UIKit-UserList-AppUITests";
 			sourceTree = "<group>";
@@ -321,7 +323,7 @@
 			packageProductDependencies = (
 			);
 			productName = "VIPER-UIKit-UserList-AppTests";
-			productReference = B0B43A8D2F95AFC000ACED6A /* VIPER-UIKit-UserList-AppTests.xctest */;
+			productReference = B0CE9B802F971AA10065C331 /* VIPER-UIKit-UserList-AppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		B0B43A962F95AFC000ACED6A /* VIPER-UIKit-UserList-AppUITests */ = {
@@ -341,7 +343,7 @@
 			packageProductDependencies = (
 			);
 			productName = "VIPER-UIKit-UserList-AppUITests";
-			productReference = B0B43A972F95AFC000ACED6A /* VIPER-UIKit-UserList-AppUITests.xctest */;
+			productReference = B0CE9B812F971AA10065C331 /* VIPER-UIKit-UserList-AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -445,7 +447,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B43ABE2F95B04A00ACED6A /* VIPER_UIKit_UserList_AppTests.swift in Sources */,
+				B0CE9B832F971B0B0065C331 /* MockUserService.swift in Sources */,
+				B0CE9B872F971B7F0065C331 /* UserListPresenterTests.swift in Sources */,
+				B0CE9B852F971B480065C331 /* UserListInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,8 +457,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0B43AC22F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITests.swift in Sources */,
-				B0B43AC32F95B04D00ACED6A /* VIPER_UIKit_UserList_AppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
